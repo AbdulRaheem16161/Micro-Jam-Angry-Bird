@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 356892228259960783}
   serializedVersion: 2
   m_LocalRotation: {x: -0.38523093, y: -0.59295636, z: -0.5928217, w: -0.3854378}
-  m_LocalPosition: {x: -0.079, y: -0.0239, z: -0.0558}
+  m_LocalPosition: {x: -0.079, y: -0.0239, z: -0.043}
   m_LocalScale: {x: 0.030632954, y: 0.027094757, z: 0.039408173}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -135,7 +135,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_jumping
   jumpForce: 5
-  jumpCooldownTime: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
