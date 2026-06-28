@@ -104,13 +104,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e013ad888cc183419852f345aa52936, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6662129972475158120}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e013ad888cc183419852f345aa52936, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 8752603836092135225}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e013ad888cc183419852f345aa52936, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3813614869768341615}
   m_SourcePrefab: {fileID: 100100000, guid: 5e013ad888cc183419852f345aa52936, type: 3}
 --- !u!4 &4030207783131803098 stripped
 Transform:
@@ -122,24 +116,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e013ad888cc183419852f345aa52936, type: 3}
   m_PrefabInstance: {fileID: 3487076789156088369}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6662129972475158120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4370176144824448864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11effffe39c2fc34a9d78d8054ff66e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player_jumping
-  jumpForce: 5
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  checkGroundPoint: {fileID: 7620449923710867571}
-  sphereRadius: 0.2
 --- !u!135 &8752603836092135225
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -161,30 +137,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.06
   m_Center: {x: -0.054704018, y: 0.008540522, z: 0.0029038226}
---- !u!54 &3813614869768341615
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4370176144824448864}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
