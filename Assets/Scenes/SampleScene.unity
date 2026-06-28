@@ -144,7 +144,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291249138}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11effffe39c2fc34a9d78d8054ff66e6, type: 3}
   m_Name: 
@@ -508,7 +508,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454655753}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 08c2abcf9d50d6945a64766770ce9f00, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -718,6 +718,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.0487
       objectReference: {fileID: 0}
+    - target: {fileID: 8752603836092135225, guid: 2ff44d8bdfbb71244a8e68e4ac87b226, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 08c2abcf9d50d6945a64766770ce9f00, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
